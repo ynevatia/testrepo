@@ -1,0 +1,33 @@
+yn@yn-ws:~/faster_dev/branches/yn/gazebo/plugin$ ls -R ../models/
+../models/:
+scout    database.config  heightmap
+
+../models/heightmap:
+manifest.xml  materials  model.config  model.sdf
+
+../models/heightmap/materials:
+textures
+
+../models/heightmap/materials/textures:
+crater2.png  dunes-129square.png  heightmap_mars.png
+crater.png   gaussian_peak.png    heightmap.png
+
+../models/roscube:
+manifest.xml  model.config  model.sdf
+
+../models/scout:
+faster.material  meshes  model.config  model.sdf  scripts  textures
+
+../models/scout/meshes:
+front_left_wheel.dae  scout_camera.dae         scout_fl_wheel.dae
+marker.dae            scout_chassis_back.dae   scout_fr_wheel.dae
+scout_bl_wheel.dae    scout_chassis.dae
+scout_br_wheel.dae    scout_chassis_front.dae
+
+../models/scout/scripts:
+faster.material
+
+../models/scout/textures:
+abcd.png  marker2.png
+
+

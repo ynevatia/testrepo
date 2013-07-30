@@ -1,0 +1,44 @@
+yn@yn-ws:~/faster_dev/branches/yn/gazebo/plugin$ rosrun gazebo_ros gazebo mars.world
+Gazebo multi-robot simulator, version 1.9.0
+Copyright (C) 2013 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+Gazebo multi-robot simulator, version 1.9.0
+Copyright (C) 2013 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+Msg Waiting for master.Warning [parser.cc:337] Converting a deprecatd source[/home/yn/faster_dev/branches/yn/gazebo/models/heightmap/model.sdf].
+Warning [Converter.cc:59]   Version[1.3] to Version[1.4]
+  Please use the gzsdf tool to update your SDF files.
+    $ gzsdf convert [sdf_file]
+Warning [parser.cc:337] Converting a deprecatd source[/home/yn/faster_dev/branches/yn/gazebo/models/scout/model.sdf].
+Warning [Converter.cc:59]   Version[1.3] to Version[1.4]
+  Please use the gzsdf tool to update your SDF files.
+    $ gzsdf convert [sdf_file]
+[ INFO] [1375176510.349125806]: Finished loading Gazebo ROS API Plugin.
+[ INFO] [1375176510.350020704]: waitForService: Service [/gazebo/set_physics_properties] has not been advertised, waiting...
+Msg Waiting for master
+Msg Connected to gazebo master @ http://127.0.0.1:11345
+Msg Publicized address: 10.1.5.17
+Error [SystemPaths.cc:371] File or path does not exist[""]
+Error [Image.cc:56] Unable to find image[file://heightmap/materials/textures/crater.png]
+Error [SystemPaths.cc:371] File or path does not exist[""]
+Exception [HeightmapShape.cc:84] Unable to find heightmap[file://heightmap/materials/textures/crater.png]
+
+
+Exception [Server.cc:374] Failed to load the World
+Unable to find heightmap[file://heightmap/materials/textures/crater.png]
+
+
+
+Exception [Server.cc:374] Failed to load the World
+Unable to find heightmap[file://heightmap/materials/textures/crater.png]
+
+
+
+
+Msg Connected to gazebo master @ http://127.0.0.1:11345
+Msg Publicized address: 10.1.5.17
+
